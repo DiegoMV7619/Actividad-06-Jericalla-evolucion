@@ -1,0 +1,34 @@
+# Archivos de configuración de ModelSim
+vsim.ini
+transcript
+*.wlf
+*.log
+*.dat
+*.bak
+
+# Directorios generados por ModelSim
+work/
+modelsim.ini
+questa.ini
+
+# Archivos de compilación
+*.vstf
+*.vcd
+*.ucdb
+*.syn
+*.rpt
+*.sdf
+*.qpf
+*.qsf
+*.qws
+*.srr
+
+# Archivos temporales
+temp/
+tmp/
+db/
+
+# Archivos específicos de Quartus
+db/
+incremental_db/
+simulation/
