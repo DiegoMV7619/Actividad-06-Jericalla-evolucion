@@ -10,9 +10,9 @@ transcript
 work/
 modelsim.ini
 questa.ini
-.cr.mti
-.mti
-.mpf
+*.cr.mti
+*.mti
+*.mpf
 
 # Archivos de compilación
 *.vstf

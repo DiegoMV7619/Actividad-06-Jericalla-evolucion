@@ -9,7 +9,7 @@ module buffer1
 	input i_uc_demux,
 	input [3:0] i_uc_alu_opcode, 
 	input i_uc_e_write_br,
-	input i_wA,
+	input [4:0] i_wA,
 	input [31:0] i_DR1,
 	input [31:0] i_DR2,        
 	input clk,
@@ -19,7 +19,7 @@ module buffer1
 	output reg o_uc_demux,
 	output reg [3:0] o_uc_alu_opcode, 
 	output reg o_uc_e_write_br,
-	output reg o_wA,
+	output reg [4:0] o_wA,
 	output reg [31:0] o_DR1,
 	output reg [31:0] o_DR2
 );

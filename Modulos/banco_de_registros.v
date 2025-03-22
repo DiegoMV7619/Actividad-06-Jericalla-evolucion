@@ -1,3 +1,7 @@
+//Equipo: Los Muñonez
+
+`timescale 1ns/1ns
+
 module banco_de_registros(
     input wire [4:0] read_address_1,
     input wire [4:0] read_address_2,

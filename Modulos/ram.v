@@ -1,3 +1,5 @@
+//Equipo: Los Muñonez
+
 `timescale 1ns/1ns
 
 module ram(
