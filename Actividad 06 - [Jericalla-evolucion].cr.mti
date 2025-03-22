@@ -1,1 +1,22 @@
+{/home/dgr/Documents/FPGAs Projects/modelsim_projects/Actividad 06 - [Jericalla-evolucion]/Pruebas/ram.v} {1 {vlog -work work -stats=none {/home/dgr/Documents/FPGAs Projects/modelsim_projects/Actividad 06 - [Jericalla-evolucion]/Pruebas/ram.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ram
 
+Top level modules:
+	ram
+
+} {} {}} {/home/dgr/Documents/FPGAs Projects/modelsim_projects/Actividad 06 - [Jericalla-evolucion]/Pruebas/buffer2.v} {1 {vlog -work work -stats=none {/home/dgr/Documents/FPGAs Projects/modelsim_projects/Actividad 06 - [Jericalla-evolucion]/Pruebas/buffer2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module buffer2
+
+Top level modules:
+	buffer2
+
+} {} {}} {/home/dgr/Documents/FPGAs Projects/modelsim_projects/Actividad 06 - [Jericalla-evolucion]/Pruebas/buffer1.v} {1 {vlog -work work -stats=none {/home/dgr/Documents/FPGAs Projects/modelsim_projects/Actividad 06 - [Jericalla-evolucion]/Pruebas/buffer1.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module buffer1
+
+Top level modules:
+	buffer1
+
+} {} {}}
