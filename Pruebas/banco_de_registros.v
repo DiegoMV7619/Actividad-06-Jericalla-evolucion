@@ -9,7 +9,7 @@ module banco_de_registros(
     output reg [31:0] data_register_2
 );
 
-reg [31:0] mem [0:127];
+reg [31:0] mem [0:31];
 
 always @* begin
     if (write_enable == 1'b1) begin
