@@ -21,7 +21,7 @@ always @(posedge clk)
 			o_e_write_br = 1'b0;
 			selector_demux = 1'b0;
 		end
-	else if(contador_pulsos < 2)
+	else if(contador_pulsos < 3)
 		begin
 			contador_pulsos = contador_pulsos + 1;
 			selector_demux = 1'b0;
