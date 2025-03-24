@@ -9,7 +9,7 @@ module banco_de_registros(
     input wire [31:0] data_write,
     input wire write_enable,
 
-    output reg [31:0] data_register_1,
+	output reg [31:0] data_register_1,
     output reg [31:0] data_register_2
 );
 
@@ -23,6 +23,7 @@ always @* begin
         data_register_1 = mem[read_address_1];
         data_register_2 = mem[read_address_2];
     end
+	
 end
 
 endmodule

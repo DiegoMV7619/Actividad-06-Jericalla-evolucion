@@ -9,7 +9,7 @@ module buffer1
 	input i_uc_demux,
 	input [3:0] i_uc_alu_opcode, 
 	input i_uc_e_write_br,
-	input [4:0] i_wA,
+	//input [4:0] i_wA,
 	input [31:0] i_DR1,
 	input [31:0] i_DR2,        
 	input clk,
@@ -19,7 +19,7 @@ module buffer1
 	output reg o_uc_demux,
 	output reg [3:0] o_uc_alu_opcode, 
 	output reg o_uc_e_write_br,
-	output reg [4:0] o_wA,
+	//output reg [4:0] o_wA,
 	output reg [31:0] o_DR1,
 	output reg [31:0] o_DR2
 );
@@ -28,21 +28,21 @@ module buffer1
 always @ (posedge clk) begin
 	
 	//Envio de señales de habilitacion hacía la memoria RAM
-	o_uc_e_read_ram = i_uc_e_read_ram;
-	o_uc_e_write_ram = i_uc_e_write_ram;
+	o_uc_e_read_ram <= i_uc_e_read_ram;
+	o_uc_e_write_ram <= i_uc_e_write_ram;
 	
 	//Seleccion de operacion para el demultiplexor
-	o_uc_demux = i_uc_demux;
+	o_uc_demux <= i_uc_demux;
 	
 	//Envio de señales de habilitacion hacia la escritura del BR
-	o_uc_e_write_br = i_uc_e_write_br;
+	o_uc_e_write_br <= i_uc_e_write_br;
 	
-	//No sé porq se manda a wA pero aqui esta lol
-	o_wA = i_wA;
+	//No sé porq se manda a wA pero aqui esta lol !!!!
+	//o_wA <= i_wA; 
 	
 	//Salida del dato del registro 1 y 2
-	o_DR1= i_DR1;
-	o_DR2= i_DR2;
+	o_DR1 <=i_DR1;
+	o_DR2 <= i_DR2;
 	
 	end
 endmodule
