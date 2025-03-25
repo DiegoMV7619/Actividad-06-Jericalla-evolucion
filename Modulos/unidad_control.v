@@ -51,19 +51,19 @@ always @* begin
 		end
 	4'b0100:
 		begin
-			write_enable_RB = 1'b1;		//<-- Estaba desactivada
+			write_enable_RB = 1'b1;		
 			read_ram = 1'b0;
-			write_ram = 1'b1;
+			write_ram = 1'b0;
 			alu_opcode = 4'b0111; //SLT
-			demultiplexor = 1'b1;
+			demultiplexor = 1'b0;
 		end
 	4'b0101:
 		begin
-			write_enable_RB = 1'b1;		//<-- Estaba desactivada
+			write_enable_RB = 1'b1;		
 			read_ram = 1'b0;
-			write_ram = 1'b1;
+			write_ram = 1'b0;
 			alu_opcode = 4'b1100; //NOR
-			demultiplexor = 1'b1;
+			demultiplexor = 1'b0;
 		end
 	4'b0110:
 		begin
